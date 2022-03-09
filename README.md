@@ -9,3 +9,5 @@
 3、ptrWriting.cpp ——记录int* p和int *p并没有差别
 
 4、ptr.cpp —— 指针、指向指针的指针和指向指针的引用
+
+5、const.cpp—— const常量
