@@ -11,3 +11,7 @@
 4、ptr.cpp —— 指针、指向指针的指针和指向指针的引用
 
 5、const.cpp—— const常量
+
+6、stringL.cpp—— std::cin 和std::getline
+
+7、forTravaersal.cpp——for遍历
