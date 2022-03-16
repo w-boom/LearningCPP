@@ -21,6 +21,14 @@ int main()
             ++punctCnt;
     
     std::cout << punctCnt << std::endl;
+	
+	// 转换为大写形式，改变单个字符的值，必须把循环变量定义为引用类型
+	for (auto &c : str)
+		c = toupper(c);
+	
+	std::cout << str << std::endl;
+	
+	
 
     return 0;  
 }
