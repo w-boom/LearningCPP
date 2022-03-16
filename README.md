@@ -17,3 +17,5 @@
 7、forTravaersal.cpp——for遍历
 
 8、VectorTest.cpp ——使用vector迭代器实现二分搜索
+
+9、ArrayTest.cpp —— array的一些注意点
