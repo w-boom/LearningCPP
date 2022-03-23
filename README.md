@@ -25,3 +25,5 @@
 11、ManagePtrParameters.cpp —— 管理指针形参
 
 12、ManageRefParameters.cpp —— 管理引用形参
+
+13、MainParameters.cpp —— main()函数接收字符并输出
