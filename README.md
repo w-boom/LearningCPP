@@ -29,3 +29,5 @@
 13、MainParameters.cpp —— main()函数接收字符并输出
 
 14、VariableArgument.cpp —— 可变形参
+
+15、ReturnList.cpp —— 列表初始化返回值（C++11后）
