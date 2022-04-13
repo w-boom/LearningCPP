@@ -1,3 +1,6 @@
-.exe
-.obj
-.txt2
+*.exe
+*.obj
+*.txt2
+*.i
+*.o
+*.s
