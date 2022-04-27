@@ -3,29 +3,29 @@
 记录学习c++中遇到的一些易混淆的小知识点
 ## Execution:程序运行中的一些知识
 * ProcessingProcedure —— 编译链接过程  
-2、TestNameMangling —— 名字修饰 
+* TestNameMangling —— 名字修饰 
 
 
 ## grammar：语法知识
-1、unsignedError.cpp ——慎用无符号类型  
-2、nullptrImportant.cpp ——nullptr 和NULL  
-3、ptrWriting.cpp ——记录int* p和int *p并没有差别  
-4、ptr.cpp —— 指针、指向指针的指针和指向指针的引用  
-5、const.cpp—— const常量  
-6、stringL.cpp—— std::cin 和std::getline  
-7、forTravaersal.cpp——for遍历  
-8、VectorTest.cpp ——使用vector迭代器实现二分搜索  
-9、ArrayTest.cpp —— array的一些注意点  
-10、ExceptionHandling.cpp —— 异常处理/后续还需继续补充  
-11、ManagePtrParameters.cpp —— 管理指针形参  
-12、ManageRefParameters.cpp —— 管理引用形参  
-13、MainParameters.cpp —— main()函数接收字符并输出  
-14、VariableArgument.cpp —— 可变形参  
-15、ReturnList.cpp —— 列表初始化返回值（C++11后）  
-16、SizeofError.cpp —— -sizeof引出的小问题 
+* unsignedError.cpp ——慎用无符号类型  
+* nullptrImportant.cpp ——nullptr 和NULL  
+* ptrWriting.cpp ——记录int* p和int *p并没有差别  
+* ptr.cpp —— 指针、指向指针的指针和指向指针的引用  
+* const.cpp—— const常量  
+* stringL.cpp—— std::cin 和std::getline  
+* forTravaersal.cpp——for遍历  
+* VectorTest.cpp ——使用vector迭代器实现二分搜索  
+* ArrayTest.cpp —— array的一些注意点  
+* ExceptionHandling.cpp —— 异常处理/后续还需继续补充  
+* ManagePtrParameters.cpp —— 管理指针形参  
+* ManageRefParameters.cpp —— 管理引用形参  
+* MainParameters.cpp —— main()函数接收字符并输出  
+* VariableArgument.cpp —— 可变形参  
+* ReturnList.cpp —— 列表初始化返回值（C++11后）  
+* SizeofError.cpp —— -sizeof引出的小问题 
 
 ## programming：编程知识
-1、AllocateMemory.c —— 动态分配内存
+* AllocateMemory.c —— 动态分配内存
 
 ## 参考的书
 <a href = "https://github.com/drh/cii">《C语言接口与实现》</a>
