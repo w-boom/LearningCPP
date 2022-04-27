@@ -26,3 +26,6 @@
 
 ## programming：编程知识
 1、AllocateMemory.c —— 动态分配内存
+
+## 参考的书
+<a href = "https://github.com/drh/cii">《C语言接口与实现》</a>
