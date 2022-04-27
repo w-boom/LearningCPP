@@ -1,7 +1,12 @@
 # LearningCPP
 
 记录学习c++中遇到的一些易混淆的小知识点
+## Execution:程序运行中的一些知识
+1、ProcessingProcedure —— 编译链接过程  
+2、TestNameMangling —— 名字修饰 
 
+
+## grammar：语法知识
 1、unsignedError.cpp ——慎用无符号类型  
 2、nullptrImportant.cpp ——nullptr 和NULL  
 3、ptrWriting.cpp ——记录int* p和int *p并没有差别  
@@ -17,6 +22,7 @@
 13、MainParameters.cpp —— main()函数接收字符并输出  
 14、VariableArgument.cpp —— 可变形参  
 15、ReturnList.cpp —— 列表初始化返回值（C++11后）  
-16、SizeofError.cpp —— -sizeof引出的小问题  
-17、ProcessingProcedure —— 编译链接过程  
-18、TestNameMangling —— 名字修饰  
+16、SizeofError.cpp —— -sizeof引出的小问题 
+
+## programming：编程知识
+1、AllocateMemory.c —— 动态分配内存
