@@ -2,7 +2,7 @@
 
 记录学习c++中遇到的一些易混淆的小知识点
 ## Execution:程序运行中的一些知识
-1、ProcessingProcedure —— 编译链接过程  
+* ProcessingProcedure —— 编译链接过程  
 2、TestNameMangling —— 名字修饰 
 
 
