@@ -23,6 +23,7 @@
 * VariableArgument.cpp —— 可变形参  
 * ReturnList.cpp —— 列表初始化返回值（C++11后）  
 * SizeofError.cpp —— -sizeof引出的小问题 
+* ClassAndStruct.cpp —— class和struct实现类得不同
 
 ## programming：编程知识
 * AllocateMemory.c —— 动态分配内存
