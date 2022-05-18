@@ -31,6 +31,7 @@
 
 ## C:C语言  
 * Overflow —— int/u int溢出  
+* QuBool —— C中没有bool  
 
 ## 参考的书
 <a href = "https://github.com/drh/cii">《C语言接口与实现》</a>  
