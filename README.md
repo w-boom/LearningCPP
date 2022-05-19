@@ -32,7 +32,8 @@
 ## C:C语言  
 * Overflow —— int/u int溢出  
 * QuBool —— C中没有bool  
-* SizeofType.c —— 数据类型的大小
+* SizeofType.c —— 数据类型的大小  
+* ScanfInput.c —— scanf  
 
 ## 参考的书
 <a href = "https://github.com/drh/cii">《C语言接口与实现》</a>  
