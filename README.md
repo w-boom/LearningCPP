@@ -34,6 +34,8 @@
 * QuBool —— C中没有bool  
 * SizeofType.c —— 数据类型的大小  
 * ScanfInput.c —— scanf  
+* GetPutChar.c —— getchar & putchar  
+
 
 ## 参考的书
 <a href = "https://github.com/drh/cii">《C语言接口与实现》</a>  
