@@ -38,6 +38,9 @@
 * GetPutChar.c —— getchar & putchar  
 * Array2D.c —— 二维数组作为形参
 * CallVariableArray.c —— 可变长度数组  
+* CompoundLiteral.c —— 复合字面量  
+
+
 ## 参考的书
 <a href = "https://github.com/drh/cii">《C语言接口与实现》</a>  
 <a href = "https://github.com/sgreenlee/C-Primer-Plus-Exercises"> 《C primer plus》</a>
