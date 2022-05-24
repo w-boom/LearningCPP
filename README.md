@@ -40,6 +40,7 @@
 * CallVariableArray.c —— 可变长度数组  
 * CompoundLiteral.c —— 复合字面量  
 * SortString.c —— 输入字符串并排序    
+* \CommandLine\FirstRepeat.c —— 命令行程序  
 
 
 ## 参考的书
