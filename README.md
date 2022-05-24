@@ -41,6 +41,7 @@
 * CompoundLiteral.c —— 复合字面量  
 * SortString.c —— 输入字符串并排序    
 * \CommandLine\FirstRepeat.c —— 命令行程序  
+* \AutoType —— auto类型在C和C++中不同  
 
 
 ## 参考的书
