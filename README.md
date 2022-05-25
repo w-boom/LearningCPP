@@ -42,6 +42,7 @@
 * SortString.c —— 输入字符串并排序    
 * \CommandLine\FirstRepeat.c —— 命令行程序  
 * \AutoType —— auto类型在C和C++中不同  
+* \StandardIO —— 标准I/O  
 
 
 ## 参考的书
