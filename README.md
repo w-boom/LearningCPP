@@ -43,6 +43,7 @@
 * \CommandLine\FirstRepeat.c —— 命令行程序  
 * \AutoType —— auto类型在C和C++中不同  
 * \StandardIO —— 标准I/O  
+* \StructureVariable —— 结构变量  
 
 
 ## 参考的书
