@@ -82,3 +82,42 @@ scanf()把字符串放在attorney.last表示的地址上。由于这是未初始
 ```
 error: storage size of 'attorney' isn't known
 ```
+* 使用malloc分配内存，并且构造释放函数(names.c)  
+
+# 5、复合字面量和结构 （C99）  
+```
+#define MAXAUTL 31
+
+struct book{
+	char title[MAXAUTL];
+	char author[MAXAUTL];
+	float value;
+};
+
+struct book readfirst;
+readfirst = (struct book){
+	"Crime and Punishment",
+	"Fyodor Dostoyevsky",
+	11.25
+}
+```
+
+# 6、伸缩型数组成员（C99）（flexible array member）（flexmemb.c） 
+ 
+```
+struct flex{
+	int count;
+	double average;
+	double scored[]; // 伸缩型数组成员
+};
+
+struct flex *pf;
+pf = malloc(sizeof(struct flex) + 5 * sizeof(double));
+pf->count = 5;
+pf->scored[2] = 18.5;
+```
+* 伸缩型数组成员必须是结构的最后一个成员；  
+* 结构中必须至少有一个成员；  
+* 伸缩数组的声明类似于普通数组，只是它的方括号中是空的。  
+* 该伸缩数组不会立即存在  
+* 声明该结构变量时，并没有给这个数组预留存储空间。希望声明一个指向flex的指针，之后需要使用malloc来分配足够的空间来存储伸缩型数组成员所需的额外空间。  
