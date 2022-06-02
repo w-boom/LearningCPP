@@ -58,7 +58,7 @@ barney.income;
 
 # 4、结构和结构指针的选择  
 * 把指针作为参数有两个优点：  
-无论是以前还是现在的C实现都能使用着中国方法，并且执行起来很快，只需要传递一个地址。  
+无论是以前还是现在的C实现都能使用这种方法，并且执行起来很快，只需要传递一个地址。  
 缺点是无法保护数据，被调函数中的某些操作可能会意外影响原来结构中的数据。ANSI C新增的const限定符解决了这个问题。  
 * 把结构作为参数传递的优点：  
 函数处理的是原始数据的副本，保护了原始数据。  
@@ -66,3 +66,19 @@ barney.income;
 * 传递结构的两个缺点：  
 较老版本的实现可能无法处理这样的代码，而且传递结构浪费时间和存储空间。  
 
+* 潜在的危险  
+```
+struct pnames{
+	char *first;
+	char *last;
+}
+
+struct pnames attorney;
+puts("Enter the last name of your attorney:");
+scanf("%s", attorney.last);
+```
+scanf()把字符串放在attorney.last表示的地址上。由于这是未初始化的变量，地址可以是任何值。可能会导致程序崩溃，如果程序能正常运行并不是好事，因为这意味着一个未被觉察的危险潜伏在程序中。  
+测试后发现代码根本不能运行，直接会提示
+```
+error: storage size of 'attorney' isn't known
+```
