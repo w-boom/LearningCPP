@@ -32,7 +32,7 @@
 
 ## C:C语言  
 * Overflow —— int/u int溢出  
-* QuBool —— C中没有bool  
+* QuBool —— C99后头文件<stdbool.h>   
 * SizeofType.c —— 数据类型的大小  
 * ScanfInput.c —— scanf  
 * GetPutChar.c —— getchar & putchar  
@@ -43,7 +43,8 @@
 * \CommandLine\FirstRepeat.c —— 命令行程序  
 * \AutoType —— auto类型在C和C++中不同  
 * \StandardIO —— 标准I/O  
-* \StructureVariable —— 结构变量  
+* \StructureVariable —— 结构变量 
+* \Union —— 联合   
 
 
 ## 参考的书
