@@ -45,6 +45,7 @@
 * \StandardIO —— 标准I/O  
 * \StructureVariable —— 结构变量 
 * \Union —— 联合   
+* EnumeratedType.c —— 枚举类型  
 
 
 ## 参考的书
