@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <cmath>
 #include <cstdio>
 #include <cstdlib>
@@ -7,21 +6,8 @@
 #include <sstream> // 用于字符串流
 #include <windows.h> // 用于ShellExecuteA
 
-// 定义M_PI常量
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
-#endif
+#include "GNUplotPlot.h"
 
-// 生成正弦信号
-std::vector<double> generate_sine_signal(double amplitude, double frequency, double phase, double duration, double fs) {
-    int num_samples = static_cast<int>(duration * fs);
-    std::vector<double> signal(num_samples);
-    for (int i = 0; i < num_samples; ++i) {
-        double t = i / fs;
-        signal[i] = amplitude * std::sin(2 * M_PI * frequency * t + phase);
-    }
-    return signal;
-}
 
 // 将整数转换为字符串（替代std::to_string）
 std::string to_string(int value) {
@@ -72,37 +58,4 @@ void plot_signals_with_gnuplot(const std::vector<std::vector<double>>& signals, 
     } else {
         std::cerr << "Error: Could not open pipe to GNUplot." << std::endl;
     }
-}
-
-int main() {
-    // 参数设置
-    double amplitude = 1.0;
-    double frequency = 5.0; // 5 Hz
-    double phase = 0.0;
-    double duration = 2.0; // 2 seconds
-    double fs = 1000; // 采样频率 1000 Hz
-
-    // 生成正弦信号
-    std::vector<double> sine_signal1 = generate_sine_signal(amplitude, frequency, phase, duration, fs);
-    std::vector<double> sine_signal2 = generate_sine_signal(amplitude, frequency, phase, duration, fs);
-    std::vector<double> sine_signal3 = generate_sine_signal(amplitude, frequency, phase, duration, fs);
-
-    // 创建第二个信号，减去2
-    for (size_t i = 0; i < sine_signal2.size(); ++i) {
-        sine_signal2[i] -= 2;
-		sine_signal3[i] -= 4;
-    }
-
-    // 将信号存储在二维 vector 中
-    std::vector<std::vector<double>> signals;
-    signals.push_back(sine_signal1);
-    signals.push_back(sine_signal2);
-	signals.push_back(sine_signal3);
-
-    // 使用管道传递数据给GNUplot并绘制信号
-    plot_signals_with_gnuplot(signals, "Sine_Waves", fs);
-
-    std::cout << "Plot generated: Sine_Waves.png" << std::endl;
-
-    return 0;
 }
