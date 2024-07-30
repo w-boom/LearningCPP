@@ -1,4 +1,4 @@
-# LearningCPP
+# LearningCPP [![CMake on multiple platforms](https://github.com/w-boom/LearningCPP/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/w-boom/LearningCPP/actions/workflows/cmake-multi-platform.yml)
 
 记录学习c++中遇到的一些易混淆的小知识点
 ## Execution:程序运行中的一些知识
