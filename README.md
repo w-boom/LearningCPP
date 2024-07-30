@@ -54,3 +54,5 @@
 <a href = "https://github.com/drh/cii">《C语言接口与实现》</a>  
 <a href = "https://github.com/sgreenlee/C-Primer-Plus-Exercises"> 《C primer plus》</a>
 
+[parallel101/cppguidebook: 小彭老师领衔编写，现代C++的中文百科全书 (github.com)](https://github.com/parallel101/cppguidebook)
+
