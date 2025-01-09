@@ -49,6 +49,10 @@
 
 ## gnuplot：调用gnuplot绘制信号
 
+## cpp
+
+* TestOutliers.cpp —— 去除离群点的一个小代码，用到了结构体和remove_if
+
 ## 参考的书
 
 <a href = "https://github.com/drh/cii">《C语言接口与实现》</a>  
